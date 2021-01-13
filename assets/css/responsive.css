@@ -1,0 +1,826 @@
+/*Archivo para Responsive Web design de CSS. Esta app funciona desde 320p hasta 4k*/
+
+@media (max-width: 2560px){
+
+    .headerAlerta{
+        margin-left: 60%;
+      }
+
+    #header_navSubmit{
+      margin-right: 100px;
+    }
+
+    #inicio h1{
+      margin-left: 31%;
+    }
+  
+    #explicacion{
+      margin-left: 40.4%;
+    }
+    
+    #instrucciones{
+      margin-left: 37.5%;
+    }
+    
+    #instrucciones p{
+      font-size: 18px;
+    }
+}
+
+@media (max-width: 2420px){
+    .headerAlerta{
+        margin-left: 54%;
+      }
+
+    #inicio h1{
+      margin-left: 30%;
+    }
+  
+    #explicacion{
+      margin-left: 40.4%;
+    }
+    
+    #instrucciones{
+      margin-left: 37%;
+    }
+    
+    #instrucciones p{
+      font-size: 18px;
+    }
+}
+
+@media (max-width: 2320px){
+    .headerAlerta{
+        margin-left: 54%;
+      }
+
+    #inicio h1{
+      margin-left: 29%;
+    }
+  
+    #explicacion{
+      margin-left: 39.4%;
+    }
+    
+    #instrucciones{
+      margin-left: 35.5%;
+    }
+    
+    #instrucciones p{
+      font-size: 18px;
+    }
+}
+
+@media (max-width: 2220px){
+    .headerAlerta{
+        margin-left: 54%;
+      }
+
+    #inicio h1{
+      margin-left: 28%;
+    }
+  
+    #explicacion{
+      margin-left: 38.4%;
+    }
+    
+    #instrucciones{
+      margin-left: 35%;
+    }
+    
+    #instrucciones p{
+      font-size: 18px;
+    }
+}
+
+@media (max-width: 2120px){
+    .headerAlerta{
+        margin-left: 54%;
+      }
+
+    #inicio h1{
+      margin-left: 27%;
+    }
+  
+    #explicacion{
+      margin-left: 38%;
+    }
+    
+    #instrucciones{
+      margin-left: 34.5%;
+    }
+    
+    #instrucciones p{
+      font-size: 18px;
+    }
+}
+
+@media (max-width: 2020px){
+    .headerAlerta{
+        margin-left: 54%;
+      }
+
+    #inicio h1{
+      margin-left: 26%;
+    }
+  
+    #explicacion{
+      margin-left: 37.5%;
+    }
+    
+    #instrucciones{
+      margin-left: 33.5%;
+    }
+    
+    #instrucciones p{
+      font-size: 18px;
+    }
+}
+
+@media (max-width: 1920px){
+    .headerAlerta{
+        margin-left: 53%;
+      }
+
+    #inicio h1{
+      margin-left: 25%;
+    }
+  
+    #explicacion{
+      margin-left: 37.5%;
+    }
+    
+    #instrucciones{
+      margin-left: 33.1%;
+    }
+    
+    #instrucciones p{
+      font-size: 18px;
+    }
+}
+
+@media (max-width: 1820px){
+    .headerAlerta{
+        margin-left: 50%;
+      }
+
+    #inicio h1{
+      margin-left: 23%;
+    }
+  
+    #explicacion{
+      margin-left: 36.5%;
+    }
+    
+    #instrucciones{
+      margin-left: 32%;
+    }
+    
+    #instrucciones p{
+      font-size: 18px;
+    }
+}
+
+@media (max-width: 1720px){
+    .headerAlerta{
+        margin-left: 50%;
+      }
+
+    #inicio h1{
+      margin-left: 22%;
+    }
+  
+    #explicacion{
+      margin-left: 36%;
+    }
+    
+    #instrucciones{
+      margin-left: 31%;
+    }
+    
+    #instrucciones p{
+      font-size: 18px;
+    }
+}
+
+@media (max-width: 1620px){
+    .headerAlerta{
+        margin-left: 48%;
+        font-size: 18px
+      }
+
+    #inicio h1{
+        font-size: 70px;
+        margin-left: 24%;
+      }
+      
+      #explicacion{
+        width: 100%;
+        margin-left: 36%;
+      }
+      
+      #explicacion h3{
+        font-size: 32px;
+      }
+      
+      #instrucciones{
+        width: 100%;
+        margin-left: 30.5%;
+      }
+      
+      #instrucciones p{
+        font-size: 18px;
+      }
+}
+
+@media (max-width: 1520px){
+    .headerAlerta{
+        margin-left: 48%;
+      }
+
+    #inicio h1{
+        margin-left: 22%;
+      }
+      
+      #explicacion{
+        width: 100%;
+        margin-left: 35%;
+      }
+      
+      #instrucciones{
+        width: 100%;
+        margin-left: 29%;
+      }
+      
+      #instrucciones p{
+        font-size: 18px;
+      }
+      
+      .contenedor{
+        font-size: 32px;
+        margin-top: 1%;
+      }
+  
+      .tarjetaClimaPrincipal{
+        margin-top: 40px;
+        font-size: 30px;
+      }
+      
+      .tarjetaClimaSecundario{
+        width: 30%;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        font-size: 23px;
+      }
+      
+      .tarjetaClimaTerciario{
+        width: 100%;
+        height: 50px;
+        margin-top: 5px;
+        font-size: 20px;
+      }
+}
+
+@media (max-width: 1420px){
+    .headerAlerta{
+        margin-left: 44%;
+      }
+
+    #header_logo{
+        width: 50%;
+      }
+
+    #inicio h1{
+        margin-left: 21%;
+      }
+      
+      #explicacion{
+        width: 100%;
+        margin-left: 35%;
+      }
+      
+      #instrucciones{
+        width: 100%;
+        margin-left: 28.5%;
+      }
+      
+      #instrucciones p{
+        font-size: 18px;
+      }
+}
+
+@media (max-width: 1320px){
+    .headerAlerta{
+        margin-left: 36%;
+      }
+
+    #inicio h1{
+        margin-left: 18%;
+      }
+      
+      #explicacion{
+        width: 100%;
+        margin-left: 33.5%;
+      }
+      
+      #instrucciones{
+        width: 100%;
+        margin-left: 26%;
+      }
+      
+      .tarjetaClimaSecundario{
+        width: 30%;
+      }
+}
+
+@media (max-width: 1240px){
+    .headerAlerta{
+        margin-left: 34%;
+    }
+
+    #header_inputCiudad{
+        width: 45%;
+        margin-right: 15px;
+      }
+      
+    #header_inputCiudad::placeholder{
+        padding-left: 30px;
+      }
+      
+    #header_inputCiudad:focus{
+        text-indent: 30px;
+    }
+
+    #inicio h1{
+        margin-left: 16%;
+      }
+      
+      #explicacion{
+        width: 100%;
+        margin-left: 32%;
+      }
+      
+      #instrucciones{
+        width: 100%;
+        margin-left: 24%;
+      }
+      
+      .tarjetaClimaSecundario{
+        width: 30%;
+      }
+}
+
+@media (max-width: 1120px){
+    .headerAlerta{
+        margin-top: 4.8%;
+        margin-left: 63.5%;
+        font-size: 16px;
+      }
+    #header_inputCiudad{
+        width: 60%;
+        margin-right: 15px;
+      }
+      
+    #header_inputCiudad::placeholder{
+        padding-left: 60px;
+      }
+      
+    #header_inputCiudad:focus{
+        text-indent: 60px;
+      }
+
+    #inicio h1{
+        margin-left: 15%;
+      }
+      
+      #explicacion{
+        width: 100%;
+        margin-left: 32%;
+      }
+      
+      #instrucciones{
+        width: 100%;
+        margin-left: 24%;
+      }
+      
+      .tarjetaClimaSecundario{
+        width: 30%;
+      }
+}
+
+@media (max-width: 1024px){
+    .headerAlerta{
+        margin-top: 4.8%;
+        margin-left: 62%;
+        font-size: 16px;
+      }
+
+    #header_inputCiudad::placeholder{
+        padding-left: 40px;
+      }
+      
+    #header_inputCiudad:focus{
+        text-indent: 40px;
+      }
+
+    #inicio h1{
+        margin-left: 9%;
+      }
+      
+      #explicacion{
+        width: 100%;
+        margin-left: 29%;
+      }
+      
+      #instrucciones{
+        width: 100%;
+        margin-left: 19%;
+      }
+
+      .contenedor{
+        font-size: 32px;
+        margin-top: 3%;
+      }
+  
+      .tarjetaClimaPrincipal{
+        margin-top: 40px;
+        font-size: 30px;
+      }
+      
+      .tarjetaClimaSecundario{
+        width: 40%;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        font-size: 22px;
+      }
+      
+      .tarjetaClimaTerciario{
+        width: 100%;
+        height: 40px;
+        margin-top: 5px;
+        font-size: 20px;
+      }
+      
+}
+
+@media (max-width: 920px){
+    .headerAlerta{
+      margin-top: 5.7%;
+      margin-left: 58%;
+      font-size: 16px;
+      }
+
+    #header_inputCiudad::placeholder{
+      padding-left: 30px;
+      }
+      
+    #header_inputCiudad:focus{
+      text-indent: 30px;
+      }
+
+    #inicio h1{
+      margin-left: 4%;
+      }
+      
+      #explicacion{
+      width: 100%;
+      margin-left: 26%;
+      }
+      
+      #instrucciones{
+      width: 100%;
+      margin-left: 16%;
+      }
+}
+
+@media (max-width: 880px){
+  .headerAlerta{
+      margin-top: 5.75%;
+      margin-left: 59%;
+      font-size: 14px;
+    }
+  #header_nav{
+      width: 45%;
+    }  
+
+  #header_navSubmit{
+      font-size: 28px;
+      margin-right: 10px;
+    }
+
+  #header_inputCiudad{
+      width: 95%;
+      margin-right: 10px;
+      font-size: 20px;
+    }
+  #header_inputCiudad::placeholder{
+      padding-left: 30px;
+      font-size: 20px;
+      }
+      
+  #header_inputCiudad:focus{
+      text-indent: 30px;
+      }
+
+  #header_img1{    
+      margin-left: 10px;
+      width: 45px;
+      height: 45px;
+    }
+  #header_logo a{
+      width: 100%;
+      font-size: 22px;
+      margin-left: 10px;
+      letter-spacing: 5px;
+    }
+
+  .lowScale{
+    display: flex;
+  }
+  
+  .highScale{
+    display: none;
+  }
+
+  #inicio h1{
+    justify-content: center;
+    text-align: center;
+    margin-right: 3%;
+  }
+
+  #explicacion{
+      justify-content: center;
+      text-align: center;
+      width: 100%;
+      margin: 0px;
+    }
+
+  #explicacion h3{
+    width: 100%;
+    font-size: 20px;
+  }
+    
+  #instrucciones{
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-right: 15%;
+    letter-spacing: 1px;
+  }
+
+  #instrucciones p{
+    font-size: 15px;
+    line-height: 20px;
+    width: 100%;
+    }
+
+  .contenedor{
+      font-size: 32px;
+      margin-top: 2%;
+    }
+
+  .tarjetaClimaPrincipal{
+      margin-top: 30px;
+      font-size: 25px;
+    }
+    
+  .tarjetaClimaSecundario{
+      width: 50%;
+      margin-top: 40px;
+      margin-bottom: 20px;
+      font-size: 20px;
+    }
+    
+  .tarjetaClimaTerciario{
+      width: 100%;
+      height: 35px;
+      margin-top: 5px;
+      font-size: 18px;
+    }
+}
+
+@media (max-width: 768px){
+  .headerAlerta{
+    margin-top: 6.3%;
+    margin-left: 56%;
+    font-size: 14px;
+  }
+
+  .contenedor{
+    font-size: 32px;
+    margin-top: 0%;
+  }
+
+  .tarjetaClimaPrincipal{
+    margin-top: 40px;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .tarjetaClimaSecundario{
+    width: 50%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 22px;
+  }
+  
+  .tarjetaClimaTerciario{
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 720px){
+  #header_inputCiudad{
+    font-size: 16px;
+  }
+  #header_inputCiudad::placeholder{
+    padding-left: 30px;
+    font-size: 16px;
+    }
+}
+
+@media (max-width: 625px){
+  .headerAlerta{
+    margin-top: 8%;
+    margin-left: 51%;
+    font-size: 14px;
+  }
+
+  #header_inputCiudad{
+    font-size: 13px;
+  }
+
+  #header_inputCiudad::placeholder{
+    padding-left: 20px;
+    font-size: 13px;
+    }
+
+  #header_inputCiudad:focus{
+      text-indent: 20px;
+    }
+}
+
+@media (max-width: 555px){
+  header{
+    flex-wrap: wrap;
+    width: 100%;
+    height: 140px;
+    z-index: 99;
+  }
+
+  #header_logo{
+    justify-content: flex-start;
+    width: 100%;
+    height: 40%;
+    align-items: center;
+  }
+  
+  #header_img1{    
+    order: 1;
+    width: 50px;
+    height: 50px;
+    margin-left: 23%;
+  }
+  
+  #header_logo a{
+    order: 2;
+    width: 90%;
+    margin-left: 5%;
+    letter-spacing: 6px;
+  }
+  
+  #header_nav{
+    width: 95%;
+  }   
+
+  .headerAlerta{
+    margin-top: 2%;
+    margin-left: 12%;
+    font-size: 14px;
+  }
+
+  #header_inputCiudad{
+    width: 95%;
+    margin-right: 10px;
+    margin-left: 35px;
+    font-size: 20px;
+  }
+
+  #header_inputCiudad::placeholder{
+    padding-left: 20px;
+    font-size: 16px;
+    }
+
+  #header_inputCiudad:focus{
+      text-indent: 20px;
+    }
+
+  #inicio h1{
+      margin-right: 3%;
+      font-size: 50px;
+    }
+  
+  #explicacion{
+      width: 100%;
+      margin: 0px;
+      }
+  
+  #explicacion h3{
+      width: 100%;
+      font-size: 20px;
+    }
+  
+    #instrucciones{
+      width: 100%;
+      line-height: 40px;
+      margin-right: 15%;
+      text-align: center;
+    }
+
+  #instrucciones p{
+      font-size: 15px;
+      width: 100%;
+      letter-spacing: 1px;
+      }
+  
+  .contenedor{
+      margin-top: 10%;
+      font-size: 28px;
+      }
+  
+  .tarjetaClimaPrincipal{
+        margin-top: 10px;
+        font-size: 20px;
+      }
+      
+  .tarjetaClimaSecundario{
+        width: 50%;
+        margin-top: 20px;
+        font-size: 18px;
+        margin-bottom: 5px;
+      }
+      
+  .tarjetaClimaTerciario{
+        width: 100%;
+        height: 40px;
+        margin-top: 5px;
+        font-size: 14px;
+      }
+}
+
+@media (max-width: 425px){
+  #header_img1{    
+    width: 60px;
+    height: 40px;
+    margin-left: 16%;
+  }
+  
+  .contenedor{
+    margin-top: 15%;
+    font-size: 23px;
+    }
+  .icono{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    }
+}
+
+@media (max-width: 375px){
+  #header_img1{    
+    width: 60px;
+    height: 40px;
+    margin-left: 13%;
+  }
+  
+  .contenedor{
+    margin-top: 20%;
+    font-size: 20px;
+  }
+  .tarjetaClimaPrincipal{
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+    
+.tarjetaClimaSecundario{
+    width: 50%;
+    margin-top: 30px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+    
+.tarjetaClimaTerciario{
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    font-size: 12px;
+  }   
+}
+
+
+

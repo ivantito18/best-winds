@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Best Winds - Weather App</title>
+    <link href="./assets/media/img/favicon.jpg" type="image/x-icon" rel="icon" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/responsive.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/cssfont/all.css" />
+</head>
+
+<body>
+    <section id="contenedorPrincipal">
+        <!--Inicio del Header-->
+        <header>
+            <div id="header_logo">
+                <img id="header_img1" src="/assets/media/img/brujulaLogo.png" />
+                <a href="/index.html">
+                    <h3>Best Winds</h3>
+                </a>
+            </div>
+            <nav id="header_nav">
+                <form id="header_formulario">
+                    <input type="text" id="header_inputCiudad" placeholder="Escriba la ciudad a buscar">
+                    <input type="submit" id="header_navSubmit" class="fas fa-search-location" value="&#xf689;">
+                </form>
+            </nav>
+        </header>
+        <!--Fin del Header-->
+        <!--Sección principal y background-->
+        <section id="inicio">
+            <h1 class="highScale">Bienvenido a Best Winds</h1>
+            <h1 class="lowScale">Bienvenido</h1>
+            <span id="explicacion">
+                <h3>¿Cómo estará el clima hoy?</h3>
+            </span>
+            <div id="instrucciones">
+                <p class="highScale">Para comenzar, escribe una ciudad en la parte superior derecha de la pantalla.</p>
+                <p class="lowScale">Nuestra app tiene más de 200.000 ciudades para ofrecerte. Puedes buscarlas en la parte superior de la pantalla.</p>
+            </div>
+        </section>
+        <section id="main" class="opacidad">
+            <div id="main_app" class="opacidad">
+                <!--Se muestra por DOM-->
+            </div>
+            <div class="loader"></div>
+        </section>
+        <div id="background">
+            <video id="backgroundVideo" autoplay loop muted>
+                <source src="./assets/media/videos/cieloFondo.mp4" type="video/mp4">
+            </video>
+        </div>
+        <!--Fin de Sección principal -->
+    </section>
+    <!--Inicio del Footer-->
+    <footer>
+        <p>2020 &copy; Iván Tito</p>
+        <span>
+            <a href="https://linkedin.com" target="_blank" class="fab fa-linkedin"></a>
+            <a href="https://instagram.com/ivantito18" target="_blank" class="fab fa-instagram"></a>
+        </span>
+        <p>Powered by <a id="footer_a" href="https://openweathermap.org" target="_blank">OpenWeather</a></p>
+    </footer>
+    <!--Fin del Footer-->
+
+    <!--------------------------------------------SCRIPTS-------------------------------------->
+    <script type="module" src="/app.js"></script>
+</body>
+
+</html>
